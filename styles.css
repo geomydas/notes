@@ -76,16 +76,12 @@ p {
 
 ul {
   margin: 1rem 0;
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 
 ol {
   margin: 1rem 0;
   padding-left: 1rem;
-}
-
-li > p {
-  margin-top: 1rem;
 }
 
 ul ul,
@@ -96,13 +92,25 @@ ol ul {
   margin-bottom: 0;
 }
 
+ul:has(details) {
+  padding-left: 0;
+  list-style: none;
+}
+
+details details {
+  padding-left: 2rem;
+}
+
 li + li {
-  margin-top: 0.25rem;
+  margin-top: 0.5rem;
 }
 
 a {
   color: #0969da;
-  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
   text-decoration: underline;
 }
 
@@ -116,6 +124,14 @@ th {
   padding: 0.25rem 1rem;
 }
 
+.back {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+*:empty {
+  display: none;
+}
 
 @media (prefers-color-scheme: dark) {
   body {
