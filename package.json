@@ -11,6 +11,7 @@
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0",
+    "prettier-plugin-css-order": "^2.1.2"
   }
 }
