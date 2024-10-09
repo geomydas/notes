@@ -94,4 +94,8 @@ Nakagawa sila ng mga bagong gamit tulad ng martilyo at palakol na yari sa buto.
 
 Bunga ng mga naimbentong kagamitan ng mga Cro-Magnon, nagkaroon sila ng kakayahang pumutol ng puno at gawin itong maliit na sasakayang pandagat upang makarating sa ibang kontinente. Nakaimbento rin sila ng pana na may kakayahang pumatay ng hayop sa malayuang distansya. 
 
-to add later...
+Naninirahan ang mga Cro-Magnon sa kuweba ngunit may nagtayo rin ng tahanan sa kagubatan. 
+
+May kakayahan narin sila na **magsalita**. 
+
+Natagpuan ng mga ang ilan sa kanilang mga magagandang pagguhit sa loob ng kuweba tulad ng mga likhang sining ng **Cro-Magnon** sa **Lascaux, France**. 
