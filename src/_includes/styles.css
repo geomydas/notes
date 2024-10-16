@@ -48,7 +48,7 @@ h2 {
 }
 
 h1,
-.back {
+#b {
   font-size: 2.25rem;
 }
 
@@ -116,7 +116,7 @@ th {
   padding: 0.25rem 1rem;
 }
 
-.b {
+#b {
   font-weight: 700;
 }
 
