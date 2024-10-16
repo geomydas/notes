@@ -111,7 +111,7 @@ table {
   border-collapse: collapse;
 }
 
-th {
+th, td {
   border: 1px solid #d0d7de;
   padding: 0.25rem 1rem;
 }
