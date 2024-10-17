@@ -42,8 +42,12 @@ h6 {
 }
 
 h1,
-h2 {
+h2,
+hr {
   border-bottom: 1px solid #d0d7deb3;
+}
+
+h1, h2 {
   padding-bottom: 0.25em;
 }
 
@@ -111,9 +115,14 @@ table {
   border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
   border: 1px solid #d0d7de;
   padding: 0.25rem 1rem;
+}
+
+hr {
+  border-top: none;
 }
 
 #b {

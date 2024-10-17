@@ -43,7 +43,7 @@ title: Kabihasnang Klasikal sa Greece
 - Minoan - matatagpuan sa Crete
 - Mycenaean - matatagpuan sa Mainland Greece
 
-### Lungsod-sestado sa sinaunang Greece
+### Lungsod-estado sa sinaunang Greece
 
 - Polis - pangunahing yunit politikal sa Greece
 - Acropolis - mataas na lugar kung saan ang Polis
@@ -54,7 +54,7 @@ title: Kabihasnang Klasikal sa Greece
 - Helot - ang tawag sa mga alipin na siyang ginawang tagapagtanim at manggagawa sa pamahalaan 
 - Perioeci - ang malalayang tao
 
-### Lungsond-estado ng Athens
+### Lungsod-estado ng Athens
 
 - Citizen
 - Metic
@@ -70,14 +70,14 @@ title: Kabihasnang Klasikal sa Greece
 
 #### Socrates
 
-- kilala sa Socratic Method
+- Kilala sa Socratic Method
 
 #### Plato
 
-- kilala sa aklat na ang pangalan ay "The Republic".
+- Kilala sa aklat na ang pangalan ay "The Republic".
 
 #### Aristotle
 
-- kilala sa aklat na ang pangalan ay "The Politics" at "The Iliad and The Odyssey".
-- kilala sa pagtayo ng Parthenon
-- kilala sa Pythagorean Theorem
+- Kilala sa aklat na ang pangalan ay "The Politics" at "The Iliad and The Odyssey".
+- Kilala sa pagtayo ng Parthenon
+- Kilala sa Pythagorean Theorem
