@@ -11,13 +11,13 @@ title: Imagery
 
 #### Figurative
 
-- I'm drowning in work.
-- That joke cracked me up.
+- Example: I'm drowning in work.
+- Example: That joke cracked me up.
 
 #### Literal
 
-- I have a lot of work to do.
-- That joke made me laugh a lot.
+- Example: I have a lot of work to do.
+- Example: That joke made me laugh a lot.
 
 ## Imagery can be simile or metaphor
 
@@ -26,7 +26,7 @@ title: Imagery
    - Example: He ran like the wind.
 2. Metaphor: A figurative image which identifies one thing with another without the use of "Like" or "as". It is an implied analogy.
    - Example: She is a shining star in the class.
-   - Example: Her life is a rollercaoster.
+   - Example: Her life is a rollercoaster.
 
 ## Types of Imagery
 
