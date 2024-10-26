@@ -47,7 +47,8 @@ hr {
   border-bottom: 1px solid #d0d7deb3;
 }
 
-h1, h2 {
+h1,
+h2 {
   padding-bottom: 0.25em;
 }
 
@@ -98,7 +99,8 @@ ol ul {
   margin-bottom: 0;
 }
 
-li + li {
+li + li,
+li li {
   margin-top: 0.5rem;
 }
 

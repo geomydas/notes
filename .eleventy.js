@@ -2,6 +2,22 @@ const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier-terser");
 
 module.exports = async function (eleventyConfig) {
+
+  eleventyConfig.addGlobalData("subjectNames", [
+    "Araling Panlipunan",
+    "Arts",
+    "Computer",
+    "Edukasyon sa Pagpapakatao",
+    "English",
+    "Filipino",
+    "Health",
+    "Math",
+    "Music",
+    "Physical Education",
+    "Science",
+    "Technology and Livelihood Education",
+  ]);
+
   eleventyConfig.addTransform("htmlmin", function (content) {
     if ((this.page.outputPath || "").endsWith(".html")) {
       let minified = htmlmin.minify(content, {
@@ -12,8 +28,6 @@ module.exports = async function (eleventyConfig) {
 
       return minified;
     }
-
-    // If not an HTML output, return content as-is
     return content;
   });
 
