@@ -1,7 +1,16 @@
-const CleanCSS = require("clean-css");
+const browserslist = require("browserslist");
+const cleancss = require("clean-css");
 const htmlmin = require("html-minifier-terser");
+// const purgecss = require("eleventy-plugin-purgecss");
 
 module.exports = async function (eleventyConfig) {
+  // Plugins
+
+  const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+  // eleventyConfig.addPlugin(purgecss);
+
+  // Global Data
 
   eleventyConfig.addGlobalData("subjectNames", [
     "Araling Panlipunan",
@@ -18,6 +27,8 @@ module.exports = async function (eleventyConfig) {
     "Technology and Livelihood Education",
   ]);
 
+  // Htmlmin config
+
   eleventyConfig.addTransform("htmlmin", function (content) {
     if ((this.page.outputPath || "").endsWith(".html")) {
       let minified = htmlmin.minify(content, {
@@ -31,14 +42,16 @@ module.exports = async function (eleventyConfig) {
     return content;
   });
 
-  eleventyConfig.addPassthroughCopy("./src/styles.css");
+  // Cssmin config
 
   eleventyConfig.addFilter("cssmin", function (code) {
-    return new CleanCSS({}).minify(code).styles;
+    return new cleancss({}).minify(code).styles;
   });
 
-  const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
-  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+  // Other config
+
+  eleventyConfig.addPassthroughCopy("./src/styles.css");
+
   return {
     dir: {
       input: "src",
