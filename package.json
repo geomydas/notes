@@ -5,7 +5,7 @@
   "scripts": {
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve",
-    "twstart": "npx tailwindcss -i src/_includes/input.css -o src/_includes/output.css  --watch"
+    "twstart": "npx tailwindcss -i input.css -o  styles.css  --watch"
   },
   "keywords": [],
   "author": "geomydas",
@@ -13,14 +13,12 @@
   "description": "",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "eleventy-plugin-purgecss": "^0.5.0",
     "prettier": "^3.3.3",
     "prettier-plugin-css-order": "^2.1.2",
     "prettier-plugin-tailwindcss": "^0.6.8",
     "tailwindcss": "^3.4.14"
   },
   "dependencies": {
-    "clean-css": "^5.3.3",
     "html-minifier-terser": "^7.2.0"
   }
 }

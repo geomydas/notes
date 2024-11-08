@@ -220,6 +220,10 @@ li + li,
   margin-top: 0.5rem
 }
 
+li:has(details) {
+  list-style-type: none
+}
+
 a {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));

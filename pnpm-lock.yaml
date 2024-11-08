@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      clean-css:
-        specifier: ^5.3.3
-        version: 5.3.3
       html-minifier-terser:
         specifier: ^7.2.0
         version: 7.2.0
@@ -18,9 +15,6 @@ importers:
       '@11ty/eleventy':
         specifier: ^3.0.0
         version: 3.0.0
-      eleventy-plugin-purgecss:
-        specifier: ^0.5.0
-        version: 0.5.0
       prettier:
         specifier: ^3.3.3
         version: 3.3.3
@@ -249,10 +243,6 @@ packages:
     resolution: {integrity: sha512-y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==}
     engines: {node: '>=14'}
 
-  commander@12.1.0:
-    resolution: {integrity: sha512-Vw8qHK3bZM9y/P10u3Vib8o/DdkvA2OtPtZvD871QKjy74Wj1WSKFILMPRPSdUSx5RFK1arlJzEtA4PkFgnbuA==}
-    engines: {node: '>=18'}
-
   commander@2.20.3:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
 
@@ -355,9 +345,6 @@ packages:
 
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
-
-  eleventy-plugin-purgecss@0.5.0:
-    resolution: {integrity: sha512-MuPMNtT0iuUUbWtjlerP0HsY9C8bUXHvHbhiQyWDx8LCGr5c9O9LKlbFkE82O6Il5xXDCTSPd0DqvJV3+LQsGQ==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -928,10 +915,6 @@ packages:
     resolution: {integrity: sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==}
     engines: {node: '>=6'}
 
-  purgecss@6.0.0:
-    resolution: {integrity: sha512-s3EBxg5RSWmpqd0KGzNqPiaBbWDz1/As+2MzoYVGMqgDqRTLBhJW6sywfTBek7OwNfoS/6pS0xdtvChNhFj2cw==}
-    hasBin: true
-
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
@@ -1420,8 +1403,6 @@ snapshots:
 
   commander@10.0.1: {}
 
-  commander@12.1.0: {}
-
   commander@2.20.3: {}
 
   commander@4.1.1: {}
@@ -1502,10 +1483,6 @@ snapshots:
   eastasianwidth@0.2.0: {}
 
   ee-first@1.1.1: {}
-
-  eleventy-plugin-purgecss@0.5.0:
-    dependencies:
-      purgecss: 6.0.0
 
   emoji-regex@8.0.0: {}
 
@@ -1975,13 +1952,6 @@ snapshots:
   prr@1.0.1: {}
 
   punycode.js@2.3.1: {}
-
-  purgecss@6.0.0:
-    dependencies:
-      commander: 12.1.0
-      glob: 10.4.5
-      postcss: 8.4.47
-      postcss-selector-parser: 6.1.2
 
   queue-microtask@1.2.3: {}
 
