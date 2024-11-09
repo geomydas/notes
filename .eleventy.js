@@ -1,4 +1,5 @@
 const htmlmin = require("html-minifier-terser");
+const CleanCSS = require("clean-css");
 
 module.exports = async function (eleventyConfig) {
   const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
@@ -37,6 +38,10 @@ module.exports = async function (eleventyConfig) {
   });
 
   // Cssmin config
+  
+  eleventyConfig.addFilter("cssmin", function (code) {
+    return new CleanCSS({}).minify(code).styles;
+  });
 
   // Other config
 
